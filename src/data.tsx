@@ -55,18 +55,18 @@ interface Project {
 export const projects: Project[] = [
   {
     id: nanoid(),
-    img: "https://images.pexels.com/photos/326503/pexels-photo-326503.jpeg?auto=compress&cs=tinysrgb&w=800",
+    img: "src/assets/PYRT.JPG",
     url: "https://pyrt.netlify.app/",
     github: "https://github.com/Filipeesf19/PYRT",
-    title: "first project",
-    text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.",
+    title: "PYRT",
+    text: "A app that will help you plan your meals, shopping list and aid you during cooking.",
   },
   {
     id: nanoid(),
-    img: "https://images.pexels.com/photos/2148222/pexels-photo-2148222.jpeg?auto=compress&cs=tinysrgb&w=800",
+    img: "src/assets/PYLT.JPG",
     url: "https://pylt.netlify.app/",
     github: "https://github.com/Filipeesf19/PYLT",
-    title: "second project",
+    title: "PYLT",
     text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.",
   },
   {
